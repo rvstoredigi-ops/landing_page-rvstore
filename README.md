@@ -1,59 +1,73 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=1200&h=400&q=80" alt="RVStore Cafe Landing Page Banner" style="border-radius: 20px;">
 </p>
 
-## About Laravel
+<h1 align="center">✨ RVStore - Digital Promotion Agency ✨</h1>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+  <em>Premium Landing Page for Cafes, Restaurants, and F&B Businesses</em>
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/Made_by-RVStore-D29D7D?style=for-the-badge&logo=codeigniter&logoColor=white" alt="Made by RVStore"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Framework-Laravel_12-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"></a>
+  <a href="#"><img src="https://img.shields.io/badge/UI_Design-Modern_Coffee_Theme-31231E?style=for-the-badge" alt="UI Design"></a>
+</p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<br>
 
-## Learning Laravel
+## ☕ Tentang Project Ini
+Project ini adalah **Template Landing Page** profesional yang dirancang khusus oleh **RVStore** untuk agensi digital promosi yang menargetkan pasar F&B (Cafe, Resto, dan Kedai Kopi). Dilengkapi dengan nuansa hangat khas kopi (*warm peach & dark brown*) yang dijamin akan memikat mata pengunjung!
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+### 🌟 Fitur Utama
+- 📱 **100% Responsive Design**: Tampilan yang rapi dan elegan baik di Desktop, Tablet, maupun HP.
+- 🎨 **Premium UI/UX**: Dilengkapi efek animasi halus, shadow yang lembut, dan transisi modern.
+- 🍔 **Mobile-Friendly Menu**: Fitur *Side-Drawer Hamburger Menu* yang sangat intuitif untuk pengguna HP.
+- 🚀 **Performa Tinggi**: Dibangun menggunakan kerangka kerja Laravel yang ringan, aman, dan cepat.
+- 📸 **Showcase Portfolio**: Layout cerdas untuk memamerkan klien dan promosi bisnis Anda.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 🛠️ Cara Instalasi & Menjalankan
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Jika Anda ingin menjalankan project ini di komputer lokal (localhost), ikuti langkah-langkah mudah berikut:
 
-### Premium Partners
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/rvstoredigi-ops/landing_page-rvstore.git
+   ```
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+2. **Masuk ke Folder Project**
+   ```bash
+   cd landing_page-rvstore
+   ```
 
-## Contributing
+3. **Install Dependencies (Library)**
+   ```bash
+   composer install
+   npm install
+   ```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+4. **Siapkan Konfigurasi**
+   Kopi file `.env.example` menjadi `.env` lalu buat kunci keamanan aplikasi.
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
 
-## Code of Conduct
+5. **Nyalakan Server**
+   ```bash
+   php artisan serve
+   ```
+   *Website kini dapat diakses melalui browser di `http://127.0.0.1:8000`* 🎉
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 📞 Hubungi Kami
+Punya pertanyaan, ide, atau ingin berkolaborasi membuat website idaman Anda? 
+**RVStore Digital Agency** siap membantu mewujudkan visi bisnis Anda.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<p align="center">
+  <br>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=D29D7D&height=200&section=footer&text=Created%20with%20%E2%99%A5%20by%20RVStore&fontSize=20&fontColor=ffffff" alt="Footer Animasi">
+</p>
